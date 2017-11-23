@@ -1,0 +1,136 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+$w: 100%;
+html,
+body {
+    width: $w;
+    height: $w;
+}
+.header-lsq {
+    width: $w;
+    height: 45px;
+    border-bottom: 1px solid #cf0000;
+    p {
+        width: 1200px;
+        margin: 0 auto;
+        font-size: 14px;
+        color: #505050;
+        line-height: 45px;
+    }
+}
+.nav-lsq {
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto; //   border: 1px solid red;
+    box-sizing: border-box;
+    .logo-lsq {
+        width: 120px;
+        height: 120px;
+        background: url(../img/header/logo.png)no-repeat;
+        margin-left: 80px;
+        margin-top: 20px;
+        float: left;
+    }
+} 
+#ul-lsq { 
+    margin-left: 260px;
+    li{
+        float: left;
+        line-height: 120px;
+        margin-left: 64px;
+        a{
+        text-decoration: none;
+         color: #333333;
+         font-size: 16px;
+        }
+    }
+}
+.active{
+    color: #d12727 !important;
+} 
+.content-lsq {
+    width: 1200px; //  height: 1519px;
+    height: 200px;
+    margin: auto;   border: 1px solid blue;
+    box-sizing: border-box;
+    display: none;
+}
+.footer-lsq {
+    width: $w;
+    height: 290px;
+    background: #333333;
+    .footer-content-lsq {
+        width: 1200px;
+        height: 231px; //      border: 1px solid deeppink;
+        box-sizing: border-box;
+        margin: auto;
+        .chan-lsq {
+            margin-left: 50px;
+        }
+        .chang-lsq {
+            margin-left: 25px;
+            border-left: 1px solid #575757;
+            border-right: 1px solid #575757;
+            width: 320px;
+            height: 170px;
+            padding-left: 42px;
+            li {
+                width: 280px !important;
+                margin-top: 5px;
+            }
+        }
+        .change-lsq {
+            height: 170px;
+            li {
+                margin-top: 5px;
+                margin-left: 50px;
+            }
+            .lie-lsq {
+                margin-left: 45px;
+            }
+        }
+        ul {
+            .li-lsq a {
+                font-size: 16px !important;
+            }
+            .lio-lsq {
+                font-size: 30px !important;
+                width: 280px;
+                text-align: center;
+                margin: 0 -6px !important;
+            }
+            .lia-lsq {
+                margin-top: 30px;
+            }
+            color: white;
+            float: left;
+            li {
+                font-size: 12px;
+            }
+            li a {
+                height: 26px;
+                line-height: 26px;
+                text-decoration: none;
+                color: white;
+                font-size: 12px;
+            }
+        }
+    }
+     .p-lsq {
+      background:#333333;
+        text-align: center;
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        height: 66px;
+        line-height: 65px;
+    }
+}
+.content-lsq{
+    width: $w;
+    height:800px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../css/sccc.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div class="header-lsq">
+			<p>乘龙仕皮具有限公司创造更好的产品，力求更好的服务!</p>
+		</div>
+		<div class="nav-lsq">
+			<div class="logo-lsq"></div>
+			<ul id="ul-lsq">
+				<li class="active"><a href="#">首页</a></li>
+				<li><a href="#">关于我们</a></li>
+				<li><a href="#">新闻中心</a></li>
+				<li><a href="#">产品中心</a></li>
+				<li><a href="#">联系我们</a></li>
+			</ul>
+		</div>
+		<div class="content-lsq" style="display: block;">首页</div>
+		<div class="content-lsq">关于我们</div>
+		<div class="content-lsq">新闻中心</div>
+		<div class="content-lsq">产品中心</div>
+		<div class="content-lsq">联系我们</div>
+		<div style="clear: both;"></div>
+		<div class="footer-lsq">
+			<div class="footer-content-lsq">
+				<div style="height: 60px;"></div>
+				<ul>
+					<li class="li-lsq"><a href="#">关于乘龙仕</a></li>
+					<li><a href="#">乘龙仕简介</a></li>
+					<li><a href="#">公司架构</a></li>
+					<li><a href="#">企业文化</a></li>
+					<li><a href="#">品牌内涵</a></li>
+					<li><a href="#">服务方式</a></li>
+				</ul>
+				<ul class="chan-lsq">
+					<li class="li-lsq"><a href="#">产品展示</a></li>
+					<li><a href="#">男款系列</a></li>
+					<li><a href="#">女款系列</a></li>
+					<li><a href="#">礼品套装</a></li>
+					<li><a href="#">男包</a></li>
+					<li><a href="#">皮带</a></li>
+				</ul>
+				<ul class="chan-lsq">
+					<li class="li-lsq"><a href="#">新闻中心</a></li>
+					<li><a href="#">新闻新闻</a></li>
+					<li><a href="#">行业动态</a></li>
+				</ul>
+				<ul class="chan-lsq">
+					<li class="li-lsq"><a href="#">合作案例</a></li>
+					<li><a href="#">服饰皮具合作</a></li>
+					<li><a href="#">礼品合作部分客户</a></li>
+				</ul>
+				<ul class="chan-lsq">
+					<li class="li-lsq"><a href="#">联系乘龙仕</a></li>
+					<li><a href="#">联系方式</a></li>
+					<li><a href="#">在线留言</a></li>
+					<li><a href="#">企业位置</a></li>
+				</ul>
+				<ul class="chang-lsq">
+						<li class="lio-lsq">乘龙仕皮具有限公司</li>
+						<li class="lia-lsq">电话 : 020-86324298/86324398</li>
+						<li>E-mail : 785710670@qq.com</li>
+						<li>Q Q : 1132308681</li>
+						<li>地址 : 广州市白云区嘉禾长红第二工业区36号</li>
+				</ul>
+				<ul class="change-lsq">
+						<li><img src="img/footer/footer.png"/></li>
+						<li class="lie-lsq">扫一扫，随时随地为您服务</li>
+				</ul>
+			</div>
+				<p class="p-lsq"> 版权所有  ©  广州乘龙仕皮具有限公司   ICP 05055114 COPYRIGHT(C)2008 COUNTRY GARDEN. ALL RIGHTS RESERVED</p>
+		</div>
+	</body>
+	<script type="text/javascript">
+			var aBtn=document.getElementById("ul-lsq").children;
+			var aDiv=document.getElementsByClassName("content-lsq");
+				for(var i=0;i<aBtn.length;i++){
+				function add(){
+					var x=i;
+					return function(){
+					for( var j=0;j<aDiv.length;j++){
+						aDiv[j].style.display="none";
+						aBtn[j].className="";
+					}
+						aDiv[x].style.display='block';
+						aBtn[x].className="active"; 
+					}
+				}		
+				aBtn[i].onclick=add();
+			}
+
+	</script>
+</html>
