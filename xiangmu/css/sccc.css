@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  list-style: none; }
+  list-style: none;
+  font-family: "microsoft yahei"; }
 
 html,
 body {
@@ -23,34 +24,24 @@ body {
   width: 1200px;
   height: 120px;
   margin: 0 auto;
-  box-sizing: border-box; }
-  .nav-lsq .logo-lsq {
-    width: 120px;
-    height: 120px;
-    background: url(../img/header/logo.png) no-repeat;
-    margin-left: 80px;
-    margin-top: 20px;
-    float: left; }
+  background: url(../img/header/logo.png) no-repeat 80px 20px; }
 
 #ul-lsq {
   margin-left: 260px; }
   #ul-lsq li {
     float: left;
     line-height: 120px;
-    margin-left: 64px; }
-    #ul-lsq li a {
-      text-decoration: none;
-      color: #333333;
-      font-size: 16px; }
+    margin-left: 64px;
+    font-size: 16px; }
+  #ul-lsq a {
+    text-decoration: none; }
 
-.active {
-  color: #d12727 !important; }
+.active a {
+  color: #CD0000 !important; }
 
 .content-lsq {
-  width: 1200px;
-  height: 200px;
+  width: 100%;
   margin: auto;
-  border: 1px solid blue;
   box-sizing: border-box;
   display: none; }
 
@@ -110,9 +101,5 @@ body {
     font-weight: bold;
     height: 66px;
     line-height: 65px; }
-
-.content-lsq {
-  width: 100%;
-  height: 800px; }
 
 /*# sourceMappingURL=sccc.css.map */

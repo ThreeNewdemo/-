@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    font-family: "microsoft yahei";
 }
 $w: 100%;
 html,
@@ -26,15 +27,7 @@ body {
     width: 1200px;
     height: 120px;
     margin: 0 auto; //   border: 1px solid red;
-    box-sizing: border-box;
-    .logo-lsq {
-        width: 120px;
-        height: 120px;
-        background: url(../img/header/logo.png)no-repeat;
-        margin-left: 80px;
-        margin-top: 20px;
-        float: left;
-    }
+    background: url(../img/header/logo.png)no-repeat 80px 20px;
 } 
 #ul-lsq { 
     margin-left: 260px;
@@ -42,20 +35,20 @@ body {
         float: left;
         line-height: 120px;
         margin-left: 64px;
-        a{
-        text-decoration: none;
-         color: #333333;
          font-size: 16px;
-        }
+    }
+    a{
+        text-decoration: none;
     }
 }
-.active{
-    color: #d12727 !important;
-} 
+.active a{
+    color: #CD0000 !important;
+}
 .content-lsq {
-    width: 1200px; //  height: 1519px;
-    height: 200px;
-    margin: auto;   border: 1px solid blue;
+    width:$w;
+     //  height: 1519px;
+//  height: 200px; 
+    margin: auto;  
     box-sizing: border-box;
     display: none;
 }
@@ -130,7 +123,4 @@ body {
         line-height: 65px;
     }
 }
-.content-lsq{
-    width: $w;
-    height:800px;
-}
+
