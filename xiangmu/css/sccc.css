@@ -34,7 +34,7 @@ body {
     margin-left: 64px;
     font-size: 16px; }
   #ul-lsq a {
-    text-decoration: none; }
+    text-decoration: none;color: #666666; }
 
 .active a {
   color: #CD0000 !important; }
