@@ -60,8 +60,8 @@
                 color: black; }
         #box-lsh #content-lsh .content-2-lsh .content-2-1-lsh .right-lsh {
           width: 933px;
-          height: 704px;
-          float: left; }
+          float: left;
+          margin-bottom: 100px; }
           #box-lsh #content-lsh .content-2-lsh .content-2-1-lsh .right-lsh a {
             display: block;
             width: 240px;
