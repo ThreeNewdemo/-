@@ -1,0 +1,162 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "微软雅黑";
+}
+
+.header-wcf {
+    width: 100%;
+    height: 100px;
+    background: red;
+}
+
+.center-wcf {
+    width: 100%;
+    height: 1500px;
+    div {
+        width: 100%;
+        margin: 0 auto;
+    }
+    hr {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        height: 400px;
+    }
+    .center-a {
+        width: 1200px;
+        height: 30px;
+        line-height: 30px;
+        p {
+            font-size: 14px;
+            span {
+                color: red;
+            }
+        }
+    }
+    .center-b {
+        width: 1200px;
+        height: 780px;
+        margin-top: 50px;
+        .left-wcf {
+            width: 220px;
+            height: 380px;
+            float: left;
+            .left-wcf {
+                width: 220px;
+                height: 380px;
+                float: left;
+                ul {
+                    width: 180px;
+                    height: 30px;
+                    a {
+                        text-decoration: none;
+                        color: #333333;
+                    }
+                    li {
+                        width: 180px;
+                        height: 30px;
+                        text-align: center;
+                        line-height: 30px;
+                        background: red;
+                        #a1 {
+                            color: white;
+                        }
+                        img {
+                            width: 10px;
+                            height: 10px;
+                            margin-left: 20px;
+                        }
+                    }
+                    ol {
+                        width: 180px;
+                        height: 60px;
+                        li {
+                            width: 180px;
+                            height: 30px;
+                            text-align: center;
+                            line-height: 30px;
+                            background: #F0F0F0;
+                            color: #666666;
+                        }
+                    }
+                }
+            }
+        }
+        .right-wcf {
+            width: 980px;
+            float: left;
+            height: 780px;
+            img {
+                width: 980px;
+                height: 350px;
+            }
+            .right-a {
+                width: 980px;
+                height: 250px;
+                margin-top: 70px;
+                b {
+                    color: #ff020e;
+                    width: 980px;
+                    height: 25px;
+                    font-size: 18px;
+                }
+                p {
+                    text-indent: 2em;
+                    margin-top: 20px;
+                    margin-left: 40px;
+                    width: 940px;
+                    height: 180px;
+                    line-height: 36px;
+                    color: #333333;
+                    font-size: 14px;
+                }
+            }
+            .right-b {
+                width: 980px;
+                height: 60px;
+                b {
+                    color: #ff020e;
+                    width: 980px;
+                    height: 25px;
+                    font-size: 18px;
+                }
+                p {
+                    width: 940px;
+                    margin-left: 40px;
+                    margin-top: 20px;
+                    color: #333333;
+                    font-size: 14px;
+                }
+            }
+            .right-c {
+                width: 980px;
+                height: 60px;
+                margin-top: 60px;
+                b {
+                    color: #ff020e;
+                    width: 980px;
+                    height: 25px;
+                    font-size: 18px;
+                }
+                p {
+                    width: 940px;
+                    margin-left: 40px;
+                    margin-top: 20px;
+                    color: #333333;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+.footer-wcf {
+    width: 100%;
+    height: 200px;
+    background: black;
+}
